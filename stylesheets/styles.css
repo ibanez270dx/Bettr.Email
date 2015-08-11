@@ -1,0 +1,121 @@
+/*============================================================================*/
+/* Header                                                                     */
+/*============================================================================*/
+
+/* Remove ugly line */
+.G-atb { border-bottom: none !important; }
+.ajl.aib.aZ6.ajj.aji:before, .ajl.aib.aZ6.ajj:before {
+  width: auto; left: 15px; right: 15px;
+}
+
+/*============================================================================*/
+/* Logo                                                                       */
+/*============================================================================*/
+
+@font-face {
+  font-family: "Fjalla One";
+  font-weight: "regular";
+  src: url('chrome-extension://__MSG_@@extension_id__/fonts/fjallaone-regular.eot');
+  src: url('chrome-extension://__MSG_@@extension_id__/fonts/fjallaone-regular.eot?#iefix') format("embedded-opentype"),
+       url('chrome-extension://__MSG_@@extension_id__/fonts/fjallaone-regular.woff') format("woff"),
+       url('chrome-extension://__MSG_@@extension_id__/fonts/fjallaone-regular.ttf') format("truetype"),
+       url('chrome-extension://__MSG_@@extension_id__/fonts/fjallaone-regular.svg') format("svg");
+}
+
+/* Logo */
+[aria-label="Navigate to"] span {
+  margin-left: -5px;
+  font-family: "Fjalla One";
+  font-size: 22pt;
+}
+
+/* Dropdown indicator */
+[aria-label="Navigate to"] .asT-asx {
+  margin-top: -15px;
+  margin-left: 10px;
+}
+
+/* Hide other logo */
+.gb_6a {
+  display: none !important;
+}
+
+/*============================================================================*/
+/* Sidebar                                                                    */
+/*============================================================================*/
+
+/* Padding & Margins */
+.aeN .oo { margin-right: 0px; }
+.aeN .TK { width: auto; }
+.aeN .aim { padding-left: 0px; }
+.aeN .aim.ain { padding-left: 0px !important; }
+.aeN .r9gPwb.bQ { padding-right: 0px !important; }
+.aeN .aim .aip { margin-right: 26px; }
+.aeN .aim .aig { right: 16px; }
+
+/* List Separators */
+.aeN .CM { height: 30px; }
+
+/* Hover Highlight */
+.aeN .aim .TO.NQ { background: rgba(228, 242, 255, 0.2); }
+
+/* First Nav Section */
+.LrBjie:first-child {
+  margin-top: 12px;
+  background-color: rgba(255,255,255,0.1); }
+.LrBjie:first-child .TO {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+/* Unread */
+#unread-box:hover {
+  background: rgba(255,255,255,0.2);
+  cursor: pointer;
+}
+
+/* Categories */
+.LrBjie.aJZ.a0L .aim:first-child { display: none; }
+.LrBjie.aJZ.a0L .TK { margin-bottom: 22px; }
+.LrBjie.aJZ.a0L:before { content: 'Categories'; }
+.LrBjie.aJZ.a0L .aio.aip { margin-left: 18px; }
+.LrBjie.aJZ.a0L span.nU.n1:before { display: none; }
+
+/* Labels */
+[gh="cl"] { margin-top: 28px; }
+[gh="cl"]:before { content: 'Labels'; }
+[gh="cl"] .aio.aip { margin-left: 30px; }
+
+/* Sidebar headers */
+.LrBjie.aJZ.a0L:before, [gh="cl"]:before {
+  display: block;
+  padding-left: 13px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  color: #fff;
+  font-weight: bold;
+}
+
+/* More */
+.r9gPwb .n6 { margin-left: 0px; }
+.r9gPwb .n6 [gh="mll"]:hover { opacity: 1; }
+.r9gPwb .n6 [gh="mll"] {
+  margin-left: 12px;
+  margin-right: 8px;
+  padding-top: 20px;
+  opacity: 0.5;
+  transition: opacity 0.25s ease-out;
+}
+
+/*============================================================================*/
+/* Split Pane View                                                            */
+/*============================================================================*/
+
+/* widen slider between messages and message pane */
+div[gh="tl"] .apj {
+  margin-left: -16px;
+  background-color: rgba(1, 14, 31, 0.65);
+}
+
+/* fill and darken inbox pane background  */
+div[gh="tl"] .apa { background-color: rgba(0,0,0,0.75); }
